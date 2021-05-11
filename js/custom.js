@@ -62,13 +62,12 @@ $('.venobox').venobox();
 new WOW().init();
 
 // testimonial slider 
-$('.testimonial-slider').slick({
+$('.testimonials').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2500,
   arrows:false,
-  fade:true,
   speed:2500,
 });
 
