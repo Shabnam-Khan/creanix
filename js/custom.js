@@ -65,7 +65,7 @@ new WOW().init();
 $('.testimonials').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2500,
   arrows:false,
   speed:2500,
