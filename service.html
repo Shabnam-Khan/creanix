@@ -41,6 +41,11 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Blog</a>
+                <ul class="submenu">
+                  <li>
+                    <a href="blog details.html">Blog Details</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -70,6 +75,41 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="web-design" role="tabpanel" aria-labelledby="web-design-tab">
+            <div class="services-img">
+              <img src="images/services-page2.jpg" alt="services-page2" class="w-100 img-fluid">
+            </div>
+            <div class="services-details">
+              <h3>Creative Solutions, Creative Results</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos laboriosam aliquam, dolor iste corrupti distinctio unde optio eum impedit ex maxime quis doloribus aliquid porro atque eius cumque?</p>
+              <h3>Solving Problems, Building Brands</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos laboriosam aliquam, dolor iste corrupti distinctio unde optio eum impedit ex maxime quis doloribus aliquid porro atque eius cumque?</p>
+              <ul class="features-list">
+                <li>
+                  <i class="fa fa-check"></i>
+                  Offering All Jobs Guaranteed & Neatly Done
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Dedicated And Knowledgeable Professionals
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Striving To Deliver Promptly
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Offering Support 24/7
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Using Technology To Get Work Done Faster
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-service" role="tabpanel" aria-labelledby="nav-service-tab">
         <div class="services-img">
           <img src="images/services-page2.jpg" alt="services-page2" class="w-100 img-fluid">
         </div>
@@ -101,38 +141,24 @@
             </li>
           </ul>
         </div>
+        </div>
+        </div>
       </div>
       <div class="col-lg-4">
         <div class="services-information">
-          <ul class="services-list">
-            <li>
-              <a href="#" class="active">Web Design</a>
-            </li>
-            <li>
-              <a href="#">Web Development</a>
-            </li>
-            <li>
-              <a href="#">App Development</a>
-            </li>
-            <li>
-              <a href="#">Digital Media & PPC</a>
-            </li>
-            <li>
-              <a href="#">Digital Marketing</a>
-            </li>
-            <li>
-              <a href="#">Social Media Marketing</a>
-            </li>
-            <li>
-              <a href="#">Content Marketing</a>
-            </li>
-            <li>
-              <a href="#">Web Application</a>
-            </li>
-            <li>
-              <a href="#">Data Analysis</a>
-            </li>
-          </ul>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="web-design" data-bs-toggle="tab" data-bs-target="#web-design" type="button" role="tab" aria-controls="web-design-tab" aria-selected="true">Web Design</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Web Development</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">App Development</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Digital Media & PPC</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Digital Marketing</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Social Media Marketing</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Content Marketing</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Web Application</button>
+              <button class="nav-link" id="nav-service-tab" data-bs-toggle="tab" data-bs-target="#nav-service" type="button" role="tab" aria-controls="nav-service" aria-selected="false">Data Analysis</button>
+            </div>
+          </nav>
           <div class="download-file">
             <h3>Brochures</h3>
             <ul>
