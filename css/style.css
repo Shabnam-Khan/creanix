@@ -88,7 +88,7 @@ body{
     transition: all .3s linear;
     z-index: 9;
     display: block;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: #ff954a;
 }
 .nav-item .submenu a{
     display: block;
@@ -125,7 +125,7 @@ body{
 .navbar-expand-lg .navbar-nav .nav-link.active{
     color: #ffab4a;
 }
-.navbar-nav .btn{
+.navbar-nav2 .btn{
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(200deg, #ffab4a 0%, #ff4a4a 100%);
     color: #fff;
@@ -141,7 +141,7 @@ body{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
-.navbar-nav .btn::before{
+.navbar-nav2 .btn::before{
     content: '';
     height: 200%;
     width: 40px;
@@ -159,12 +159,75 @@ body{
     -ms-transition: all ease .5s;
     -o-transition: all ease .5s;
 }
-.navbar-nav .btn:hover::before{
+.navbar-nav2 .btn:hover::before{
     transform: translateX(230px) rotate(20deg);
     -webkit-transform: translateX(230px) rotate(20deg);
     -moz-transform: translateX(230px) rotate(20deg);
     -ms-transform: translateX(230px) rotate(20deg);
     -o-transform: translateX(230px) rotate(20deg);
+}
+/* responsive navbar css goes here*/
+.nav-item .accordion-item{
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    box-shadow: none;
+    width: 100%;
+}
+.nav-item .accordion-header{
+    line-height: 0;
+}
+.nav-item .accordion-body{
+    background-color: #ffab4a;
+    border-bottom: 1px solid #ff4a4a;
+}
+.nav-item .accordion-body2{
+    background-color: #ffab4a;
+    padding: 1rem 1.25rem;
+}
+.nav-item .accordion-body a{
+    color: #f5f5f5;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.nav-item .accordion-body2 a{
+    color: #f5f5f5;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.nav-item .accordion-item:last-of-type .accordion-button.collapsed {
+	background-color: transparent;
+}
+.nav-item .accordion-button:not(.collapsed) {
+    color: transparent;
+    background-color: transparent;
+}
+.nav-item .accordion-item button{
+    padding: 1rem 1.1rem;
+    text-align: left;
+}
+.nav-item .accordion-button i {
+    color: #f5f5f5;
+	display: inline-block;
+    float: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link2{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f5f5;
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link2:hover{
+    color: #ffab4a;
 }
 /* banner part goes here */
 #banner{
@@ -314,7 +377,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .feature-item p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #444;
     font-family: 'Montserrat', sans-serif;
@@ -2393,3 +2456,4 @@ blockquote{
     font-style: italic;
     padding-top: 10px;
 }
+
