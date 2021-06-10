@@ -8,6 +8,7 @@ a{
 }
 ul,ol{
     list-style-type: none;
+    margin-bottom: 0;
 }
 img{
     vertical-align: middle;
@@ -46,7 +47,7 @@ body{
     transform: translateY(-5px);
     transition: 0.5s;
 }
-/* navbar part goes here */
+/******* navbar part goes here *******/
 .navbar-expand-lg .navbar-nav .nav-link{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -166,7 +167,7 @@ body{
     -ms-transform: translateX(230px) rotate(20deg);
     -o-transform: translateX(230px) rotate(20deg);
 }
-/* responsive navbar css goes here*/
+/******* responsive navbar part goes here *******/
 .nav-item .accordion-item{
     margin-left: 2px;
     margin-top: 4px;
@@ -229,7 +230,7 @@ body{
 .navbar-expand-lg .navbar-nav .nav-link2:hover{
     color: #ffab4a;
 }
-/* banner part goes here */
+/******* banner part goes here *******/
 #banner{
     background: url(../images/banner.jpg);
     background-position: center;
@@ -312,7 +313,7 @@ body{
         -o-transform: translateX(0px);
 }
 }
-/* about part goes here */
+/******* feature part goes here *******/
 #feature{
     padding-top: 80px;
 }
@@ -398,7 +399,7 @@ body{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-/* about part goes here */
+/******* about part goes here *******/
 #about{
     padding-top: 80px;
     padding-bottom: 80px;  
@@ -498,7 +499,7 @@ body{
     -ms-transform: translateX(230px) rotate(20deg);
     -o-transform: translateX(230px) rotate(20deg);
 }
-/* service part goes here */
+/******* service part goes here *******/
 #service{
     padding-top: 80px;
     padding-bottom: 60px;
@@ -569,6 +570,7 @@ body{
     width: 40px;
     left: -10px;
     top: 40%;
+    z-index: -1;
     background: #fff;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -601,6 +603,7 @@ body{
     width: 40px;
     right: -10px;
     top: 40%;
+    z-index: -1;
     background: #fff;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -646,7 +649,7 @@ body{
 .slick-center .slider-right2{
     filter: drop-shadow(-3px 3px 2px #bdb3b3);
 }
-/* experience part goes here */
+/******* experience part goes here *******/
 #experience{
     padding-top: 80px;
     padding-bottom: 60px;
@@ -757,7 +760,7 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
-/* counter part goes here */
+/******* counter part goes here *******/
 #counter{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -823,7 +826,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
 }
-/* portfolio part goes here */
+/******* portfolio part goes here *******/
 #portfolio{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -914,7 +917,7 @@ body{
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-/* team part goes here */
+/******* team part goes here *******/
 #team{
     padding-top: 80px;
     padding-bottom: 70px;
@@ -1037,7 +1040,7 @@ body{
     color: #fff;
     background-color: #ff4a4a;
 }
-/* testimonial part goes here  */
+/******* testimonial part goes here *******/
 #testimonial{
     padding-top: 80px;
     padding-bottom: 36px;
@@ -1058,7 +1061,7 @@ body{
 .testimonial-heading h6::after{
     content: '';
     position: absolute;
-    left: 36%;
+    left: 37%;
     top: 40%;
     display: block;
     width: 40px;
@@ -1067,7 +1070,7 @@ body{
 .testimonial-heading h6::before{
     content: '';
     position: absolute;
-    right: 36%;
+    right: 37%;
     top: 40%;
     display: block;
     width: 40px;
@@ -1179,7 +1182,7 @@ li.slick-active button {
 li.slick-active {
     border-color: #ff4a4a;
 }
-/* blog part goes here */
+/******* blog part goes here *******/
 #blog{
     padding-top: 80px;
     padding-bottom: 40px;
@@ -1307,7 +1310,7 @@ li.slick-active {
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
-/* marketplace part goes here */
+/******* marketplace part goes here *******/
 .counter-one{
     width: 210px;
     float: left;
@@ -1325,7 +1328,7 @@ li.slick-active {
 .slick-center .single_counter2{
     border-color: #fec600;
 }
-/* footer part goes here */
+/******* footer  part goes here *******/
 #contact{
     padding-top: 75px;
     padding-bottom: 28px;
@@ -1483,7 +1486,7 @@ li.slick-active {
 .social-links li a.pinterest:hover{
     background-color: #ff4a4a;
 }
-/* copyright part goes here */
+/******* copyright part goes here *******/
 #copyright {
     background-color: #111;
 }
@@ -1520,7 +1523,7 @@ li.slick-active {
 .copyright-right a:hover{
     color: #ffab4a;
 }
-/* about page css goes here */
+/******* about page css goes here *******/
 #about-breadcrumb{
     background: url(../images/about-page-banner.jpg);
     background-size: cover;
@@ -1556,6 +1559,9 @@ li.slick-active {
     text-transform: capitalize;
     color: #ff4a4a;
 }
+#about-page{
+    margin-top: 80px;
+}
 .breadcrumb-item{
     text-align: center;
     margin: 80px 0;
@@ -1568,6 +1574,9 @@ li.slick-active {
     color: #ffffff;
     margin-bottom: 30px;
     font-size: 45px;
+}
+#team2{
+    margin-top: 80px;
 }
 #pricing{
     padding-top: 80px;
@@ -1787,7 +1796,7 @@ li.slick-active {
     text-align: center;
     margin-top: 10px;
 }
-/* services page css goes here */
+/******* services page css goes here *******/
 #services-breadcrumb{
     background: url(../images/services-page-banner.jpg);
     background-size: cover;
@@ -1926,7 +1935,7 @@ li.slick-active {
     transform: translateY(-50%);
     font-size: 22px;
 }
-/* portfolio page css goes here */
+/******* portfolio page css goes here *******/
 #portfolio-breadcrumb{
     background: url(../images/portfolio-page-banner.jpg);
     background-size: cover;
@@ -1966,7 +1975,7 @@ li.slick-active {
     padding-top: 80px;
     padding-bottom: 26px;
 }
-/* blog page css goes here */
+/******* blog page css goes here *******/
 #blog-breadcrumb{
     background: url(../images/blog-page-banner.jpg);
     background-size: cover;
@@ -2024,7 +2033,7 @@ li.slick-active {
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
-/* blog details page css goes here */
+/******* blog details page css goes here *******/
 #blog-breadcrumb{
     background: url(../images/blog-page-banner.jpg);
     background-size: cover;
@@ -2287,7 +2296,7 @@ blockquote{
 .posts-info a:hover{
     color: #ff4a4a;
 }
-/* contact page css goes here */
+/******* contact page css goes here *******/
 #contact-breadcrumb{
     background: url(../images/contact-page-banner.jpg);
     background-size: cover;
@@ -2450,10 +2459,5 @@ blockquote{
     display: inline-block;
     color: #6b6b84;
 }
-.error-message{
-    color: red;
-    font-size: 16px;
-    font-style: italic;
-    padding-top: 10px;
-}
+
 

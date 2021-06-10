@@ -9,7 +9,7 @@ $('.navbar-toggler i').click(function(){
  $('.slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay:true,
     autoplaySpeed: 2500,
     arrows:false,
     vertical:true,
@@ -123,147 +123,27 @@ $('.testimonials').slick({
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+      }
+    },
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 4,
       }
     }
   ]
 });
 });
-
-
-// contact form validation 
-// var firstname = document.getElementById('firstname');
-// var firstname_error = document.getElementById('firstname_error');
-
-// var lastname = document.getElementById('lastname');
-// var lastname_error = document.getElementById('lastname_error');
-
-// var email = document.getElementById('email');
-// var email_error = document.getElementById('email_error');
-// var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-// var phone = document.getElementById('phone');
-// var phone_error = document.getElementById('phone_error');
-// var phoneregex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-
-// var subject = document.getElementById('subject');
-// var subject_error = document.getElementById('subject_error');
-
-// var message = document.getElementById('message');
-// var message_error = document.getElementById('message_error');
-
-
-// function sub(){
-//   if(firstname.value == ''){
-//       firstname_error.innerHTML = "Enter your first name";
-//       firstname.style.border = '2px solid red';
-//       firstname.focus();
-//       return false;
-//   }
-//   if(lastname.value == ''){
-//       lastname_error.innerHTML = "Enter your last name";
-//       lastname.style.border = '2px solid red';
-//       lastname.focus();
-//       return false;
-//   }
-//   if(email.value == ''){
-//       email_error.innerHTML = "Enter your email address";
-//       email.style.border = '2px solid red';
-//       email.focus();
-//       return false;
-//   }
-//   if(!regex.test(email.value)){
-//       email_error.innerHTML = "Enter a valid email address";
-//       email.style.border = '2px solid red';
-//       email.focus();
-//       return false;
-//   }
-//   if(phone.value == ''){
-//       phone_error.innerHTML = "Enter your phone number";
-//       phone.style.border = '2px solid red';
-//       phone.focus();
-//       return false;
-//   }
-//   if(!phoneregex.test(phone.value)){
-//       phone_error.innerHTML = "Enter a 10-digit phone number";
-//       phone.style.border = '2px solid red';
-//       phone.focus();
-//       return false;
-//   }
-//   if(subject.value == ''){
-//     subject_error.innerHTML = "Enter your subject";
-//     subject.style.border = '2px solid red';
-//     subject.focus();
-//     return false;
-// }
-//   if(message.value == ''){
-//     message_error.innerHTML = "Enter your message";
-//     message.style.border = '2px solid red';
-//     message.focus();
-//     return false;
-// }
- 
-// }
-
-// function errorvalidate(){
-//   if(firstname.value != ''){
-//       firstname_error.innerHTML = "";
-//       firstname.style.border = '2px solid green';
-//   }
-//   if(lastname.value != ''){
-//       lastname_error.innerHTML = "";
-//       lastname.style.border = '2px solid green';
-//   }
-//   if(email.value != ''){
-//       email_error.innerHTML = "";
-//       email.style.border = '2px solid green';
-//   }
-//   if(phone.value != ''){
-//       phone_error.innerHTML = "";
-//       phone.style.border = '2px solid green';
-//   }
-//   if(subject.value != ''){
-//     subject_error.innerHTML = "";
-//     subject.style.border = '2px solid green';
-// }
-//   if(message.value != ''){
-//     message_error.innerHTML = "";
-//     message.style.border = '2px solid green';
-// }
-// }
-
-// firstname.addEventListener('blur', errorvalidate);
-// lastname.addEventListener('blur', errorvalidate);
-// email.addEventListener('blur', errorvalidate);
-// phone.addEventListener('blur', errorvalidate);
-// subject.addEventListener('blur', errorvalidate);
-// message.addEventListener('blur', errorvalidate);
-
-// newsletter email validation
-
-var newsemail = document.getElementById('news-email');
-var newsemail_error = document.getElementById('news_email_error');
-var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-function sub(){
-    if(newsemail.value == ''){
-        newsemail_error.innerHTML = "Please Enter Your Email Address";
-        newsemail.style.border = '2px solid red';
-        newsemail.focus();
-        return false;
-    }
-    if(!regex.test(newsemail.value)){
-        newsemail_error.innerHTML = "Please Enter A Valid Email Address";
-        newsemail.style.border = '2px solid red';
-        newsemail.focus();
-        return false;
-    }
-}
-
-function errvalidate(){
-    if(newsemail.value != ''){
-        newsemail_error.innerHTML = "";
-        newsemail.style.border = '2px solid green';
-    }
-}
-newsemail.addEventListener('blur', errvalidate);

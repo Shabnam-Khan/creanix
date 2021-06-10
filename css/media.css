@@ -1,3 +1,248 @@
+@media(min-width:1200px) and (max-width:1399.98px){
+    .banner-png img {
+      height: 415px;
+    }
+    .about-right h6::after {
+        left: 17%;
+    }
+    .about-bg{
+        background: none;
+    }
+    .about-right{
+        margin-left: 35px;
+    }
+    .service-heading h6::after {
+        left: 31%;
+    }
+    .service-heading h6::before {
+        right: 31%;
+    }
+    .slider-right2 {
+        margin-top: 38px;
+    }
+    .slider-right {
+        margin-top: 38px;
+        margin-left: -10px;
+    }
+    .slider-middle2 {
+        margin-left: 50px;
+    }
+    .slider-middle {
+        margin-left: 50px;
+    }
+    .experience-heading h6::after {
+        left: 34%;
+    }
+    .experience-heading h6::before {
+        right: 34%;
+    }
+    .experience-bg{
+        background: none;
+    }
+    .accordion-item {
+        margin: auto;
+    }
+    .accordion-header {
+        line-height: 26px;
+    }
+    .accordion-button i{
+        display: none;
+    }
+    .experience-right img{
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: -21px;
+    }
+    #accordionExample{
+        margin-top: 62px;
+    }
+    .portfolio-heading h6::after {
+        left: 31%;
+    }
+    .portfolio-heading h6::before {
+        right: 31%;
+    }
+    .team-heading h6::after {
+        left: 38%;
+    }
+    .team-heading h6::before {
+        right: 38%;
+    }
+    .team-image img{
+        max-width: 100%;
+    }
+    .team-overlay{
+        width: 100%;
+    }
+    .user-image img {
+        left: 38%;
+    }
+    .testimonial-heading h6::after {
+        left: 35%;
+    }
+    .testimonial-heading h6::before {
+        right: 35%;
+    }
+    .blog-heading h6::after {
+        left: 40%;
+    }
+    .blog-heading h6::before {
+        right: 40%;
+    }
+/******* about page css *******/
+    .about-left img{
+        max-width: 100%;
+        margin-left: 24px;
+        margin-top: 30px;
+    }
+    .about-right {
+        margin-left: 24px;
+    }
+    .pricing-heading h6::after {
+        left: 35%;
+    }
+    .pricing-heading h6::before {
+        right: 35%;
+    }
+/******* contact page css *******/
+    .contact-heading h6::after {
+	    left: 36%;
+    }
+    .contact-heading h6::before {
+	    right: 36%;
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .banner-png img{
+        height: 340px;
+    }
+    .content h1 {
+        font-size: 49px;
+    }
+    .feature-item h3 {
+        line-height: 26px;
+    }
+    .about-left img{
+        max-width: 100%;
+        margin-top: 55px;
+    }
+    .about-bg{
+        background: none;
+    }
+    .about-right h6:after{
+        left: 19%;
+    }
+    .service-heading h6::before {
+        right: 28%;
+    }
+    .service-heading h6::after {
+        left: 28%;
+    }
+    .service-heading h2{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .slider-right2 {
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 98px;
+    }
+    .slider-right {
+        width: 80%;
+        margin-top: 25px;
+    }
+    .slider-middle {
+        margin-left: 40px;
+    }
+    .slider-middle2 {
+        margin-left: 40px;
+    }
+    .experience-heading h6::before {
+        right: 31%;
+    }
+    .experience-heading h6::after {
+        left: 31%;
+    }
+    .experience-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 50px;
+    }
+    .experience-bg{
+        background: none;
+    }
+    .accordion-item {
+        margin:auto
+    }
+    .accordion-header {
+        line-height: 26px;
+    }
+    .accordion-button i{
+        display: none;
+    }
+    .experience-right img{
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: -21px;
+    }
+    .portfolio-heading h6::before {
+        right: 27%;
+    }
+    .portfolio-heading h6::after {
+        left: 27%;
+    }
+    .team-heading h6::before {
+        right: 35%;
+    }
+    .team-heading h6::after {
+        left: 35%;
+    }
+    .team-image img{
+        max-width: 100%;
+    }
+    .team-overlay{
+        width: 100%;
+    }
+    .testimonial-heading h6::before {
+        right: 33%;
+    }
+    .testimonial-heading h6::after {
+        left: 33%;
+    }
+    .user-image img {
+        top: -28%;
+        left: 36%;
+    }
+    .blog-heading h6::before {
+        right: 38%;
+    }
+    .blog-heading h6::after {
+        left: 38%;
+    }
+    .blog-tab h6 {
+        width: 40%;
+    }
+/******* about page css *******/
+    .pricing-heading h6::after {
+	    left: 32%;
+    }
+    .pricing-heading h6::before {
+	    right: 32%;
+    }
+/******* contact page css *******/
+    .contact-heading h6::after {
+	    left: 33%;
+    }
+    .contact-heading h6::before {
+	    right: 33%;
+    }
+}
 @media(min-width:768px) and (max-width:991.98px){
     .navbar-toggler i{
         color: #fff;
@@ -26,7 +271,237 @@
     .nav-item .accordion-button i {
         position: absolute;
         top: 8px;
-        left: 485px;
+        left: 665px;
+    }
+    .content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .content a{
+        padding: 12px 30px;
+    }
+    #banner{
+        height: 65vh;
+    }
+    #banner .banner-img{
+        display: none;
+    }
+    .banner-text{
+        height: 74vh;
+    }
+    .feature-item{
+        margin-top: 20px;
+    }
+    .feature-item h3{
+        line-height: 26px;
+    }
+    .about-left img{
+        max-width: 100%;
+        margin-left: 30px;
+    }
+    .about-bg{
+        background: none;
+    }
+    .about-right{
+        padding-top: 45px;
+        padding-left: 80px;
+    }
+    .about-right h6:after{
+        left: 14%;
+    }
+    .about-right h2{
+        font-size: 28px;
+    }
+    .about-right h3 {
+        font-size: 20px;
+    }
+    .about-button .btn{
+        padding: 8px 31px;
+    }
+    .service-heading h6::before {
+        right: 30%;
+    }
+    .service-heading h6::after {
+        left: 30%;
+    }
+    .service-heading h2{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .slider-left{
+        text-align: center !important;
+        width: 100%;
+    }
+    .slider-left2{
+        text-align: center !important;
+        width: 100%;
+    }
+    .slider-right{
+        text-align: center !important;
+        width: 60%;
+        margin: 32px auto;
+    }
+    .slider-right2{
+        text-align: center !important;
+        width: 60%;
+        margin: 30px auto;
+    }
+    .slider-left h3{
+        padding-top: 46px;
+    }
+    .slider-left2 h3{
+        padding-top: 46px;
+    }
+    .slider-middle{
+        margin-left: 320px;
+        margin-top: 58px;
+    }
+    .slider-middle2{
+        margin-left: 320px;
+        margin-top: 58px;
+    }
+    .experience-bg{
+        background: none;
+    }
+    .experience-heading h6::before {
+        right: 33%;
+    }
+    .experience-heading h6::after {
+        left: 33%;
+    }
+    .experience-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 28px;
+    }
+    .accordion-item {
+        margin:auto
+    }
+    .accordion-header {
+        line-height: 26px;
+    }
+    .accordion-button i{
+        display: none;
+    }
+    .experience-right img{
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #counter{
+        padding-top: 0;
+    }
+    .counter-item {
+        width: 220px;
+        height: 220px;   
+    }
+    .inner h3 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .inner h5 {
+        font-size: 12px;
+    }
+    .portfolio-heading h6::before {
+        right: 30%;
+    }
+    .portfolio-heading h6::after {
+        left: 30%;
+    }
+    .portfolio-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 28px;
+    }
+    .gallery-item{
+        margin-bottom: 20px;
+    }
+    #portfolio .row{
+        margin-top: 0 !important;
+    }
+    .team-heading h6::before {
+        right: 37%;
+    }
+    .team-heading h6::after {
+        left: 37%;
+    }
+    .team-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 28px;
+    }
+    .team-item{
+        margin-bottom: 35px;
+    }
+    .team-image{
+        margin-left: 158px;
+    }
+    .team-image img{
+        max-width: 100%;
+    }
+    .team-overlay{
+        width: 70.6%;
+    }
+    .testimonial-heading h6::before {
+        right: 35%;
+    }
+    .testimonial-heading h6::after {
+        left: 35%;
+    }
+    .testimonial-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 28px;
+    }
+    .user-image img {
+        top: -26%;
+        left: 38%;
+    }
+    .user-content p {
+        line-height: 30px;
+    }
+    .blog-heading h6::before {
+        right: 40%;
+    }
+    .blog-heading h6::after {
+        left: 40%;
+    }
+    .blog-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 28px;
+    }
+    .blog-tab h6 {
+        width: 35%;
+    }
+    #blog .card {
+        margin-bottom: 20px;
+    }
+/******* about page css *******/
+    .pricing-heading h6::after {
+	    left: 34%;
+    }
+    .pricing-heading h6::before {
+	    right: 34%;
+    }
+    .single-price {
+        margin-bottom: 20px;
+    }
+/******* blog page css *******/
+    .blog-tab h6 {
+	    width: 53%;
+    }
+    .blog-tab h6 {
+        padding-top: 15px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+/******* contact page css *******/
+    .contact-heading h6::after {
+	    left: 35%;
+    }
+    .contact-heading h6::before {
+	    right: 35%;
     }
 }
 @media(min-width:576px) and (max-width:767.98px){
@@ -75,18 +550,11 @@
     .banner-text{
         height: 74vh;
     }
-    #feature{
-        padding-top: 40px;
-    }
     .feature-item{
         margin-top: 20px;
     }
     .feature-item h3{
         line-height: 26px;
-    }
-    #about{
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
     .about-left img{
         max-width: 100%;
@@ -108,9 +576,6 @@
     }
     .about-button .btn{
         padding: 8px 31px;
-    }
-    #service{
-        padding-top: 50px;
     }
     .service-heading h6::before {
         right: 23%;
@@ -154,9 +619,6 @@
         margin-left: 233px;
         margin-top: 58px;
     }
-    #experience{
-        padding-top: 50px;
-    }
     .experience-bg{
         background: none;
     }
@@ -198,11 +660,6 @@
     .inner h5 {
         font-size: 12px;
     }
-    #portfolio{
-        padding-top: 50px;
-        padding-bottom: 40px;
-
-    }
     .portfolio-heading h6::before {
         right: 23%;
     }
@@ -219,9 +676,6 @@
     }
     #portfolio .row{
         margin-top: 0 !important;
-    }
-    #team{
-        padding-top: 50px;
     }
     .team-heading h6::before {
         right: 32%;
@@ -245,9 +699,6 @@
     }
     .team-overlay{
         width: 85.2%;
-    }
-    #testimonial{
-        padding-top: 0;
     }
     .testimonial-heading h6::before {
         right: 29%;
@@ -277,9 +728,6 @@
     .slick-dots {
         left: 47%;
     }
-    #blog{
-        padding-top: 50px;
-    }
     .blog-heading h6::before {
         right: 36%;
     }
@@ -293,6 +741,9 @@
     }
     .blog-tab h6 {
         width: 46%;
+    }
+    .blog-title h4 {
+        line-height: 30px;
     }
     #blog .card {
         margin-bottom: 20px;
@@ -336,6 +787,62 @@
     }
     .footer-contact-info i {
         position: unset;
+    }
+/******* about page css *******/
+    .pricing-heading h6::after {
+	    left: 29%;
+    }
+    .pricing-heading h6::before {
+	    right: 29%;
+    }
+    .pricing-heading h2{
+        font-size: 28px;
+    }
+    .single-price {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .newsletter-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .newsletter-content h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+/******* blog page css *******/
+    #blog-page .card {
+	    margin-bottom: 20px;
+    }
+    .blog-tab h6 {
+        width: 30%;
+    }
+    .blog-info p {
+        max-width: 448px;
+    }
+/******* blog details page css *******/
+    .article-content h3 {
+        line-height: 35px;
+        font-size: 28px;
+    }
+    .search-bar {
+        margin-top: 25px;
+    }
+    .posts-info {
+        margin-top: 0;
+    }
+    .posts-info h4{
+        margin-top: 0;
+    }
+    .posts-item {
+        margin-bottom: 25px;
+    }
+/******* contact page css *******/
+    .contact-heading h6::after {
+	    left: 30%;
+    }
+    .contact-heading h6::before {
+	    right: 30%;
     }
 }
 @media(max-width:575.98px){
@@ -384,18 +891,11 @@
     .banner-text{
         height: 74vh;
     }
-    #feature{
-        padding-top: 40px;
-    }
     .feature-item{
         margin-top: 20px;
     }
     .feature-item h3{
         line-height: 26px;
-    }
-    #about{
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
     .about-left img{
         max-width: 100%;
@@ -417,9 +917,6 @@
     }
     .about-button .btn{
         padding: 8px 31px;
-    }
-    #service{
-        padding-top: 50px;
     }
     .service-heading h6::before {
         right: 4%;
@@ -462,9 +959,6 @@
         margin-left: 118px;
         margin-top: 58px;
     }
-    #experience{
-        padding-top: 50px;
-    }
     .experience-bg{
         background: none;
     }
@@ -503,11 +997,6 @@
         font-size: 30px;
         line-height: 35px;
     }
-    #portfolio{
-        padding-top: 50px;
-        padding-bottom: 40px;
-
-    }
     .portfolio-heading h6::before {
         right: 3%;
     }
@@ -524,9 +1013,6 @@
     }
     #portfolio .row{
         margin-top: 0 !important;
-    }
-    #team{
-        padding-top: 50px;
     }
     .team-heading h6::before {
         right: 20%;
@@ -547,9 +1033,6 @@
     }
     .team-overlay{
         width: 100%;
-    }
-    #testimonial{
-        padding-top: 0;
     }
     .testimonial-heading h6::before {
         right: 15%;
@@ -578,9 +1061,6 @@
     }
     .slick-dots {
         left: 44%;
-    }
-    #blog{
-        padding-top: 50px;
     }
     .blog-heading h6::before {
         right: 27%;
@@ -636,9 +1116,80 @@
     .footer-contact-info i {
         position: unset;
     }
+/******* about page css *******/
+    .pricing-heading h6::after {
+        left: 14%;
+    }
+    .pricing-heading h6::before {
+        right: 14%;
+    }
+    .pricing-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .single-price {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .newsletter-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .newsletter-content h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .field button {
+        padding: 0px 9px;
+
+    }
+    .field input {
+        padding-left: 15px;
+    }
+/******* services page css *******/
+    .services-details h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .services-details ul {
+        line-height: 30px;
+        margin-right: 5px;
+    }
+    .services-details ul li{
+        margin-bottom: 16px;
+    }
+/******* blog page css *******/
+    #blog-page .card {
+        margin-bottom: 20px;
+    }
+/******* blog details page css *******/
+    .article-content h3 {
+        line-height: 30px;
+        font-size: 24px;
+    }
+    .search-bar {
+        margin-top: 25px;
+    }
+    .posts-info {
+        margin-top: 0;
+    }
+    .posts-info h4{
+        margin-top: 0;
+    }
+    .posts-item {
+        margin-bottom: 25px;
+    }
+    /******* contact page css goes here *******/
+    .contact-heading h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .contact-heading h6::after {
+        left: 15%;
+    }
+    .contact-heading h6::before {
+        right: 15%;
+    }
 }
-
-
-
 
 
