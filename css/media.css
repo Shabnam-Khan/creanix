@@ -503,6 +503,9 @@
     .contact-heading h6::before {
 	    right: 35%;
     }
+    .form-space{
+        padding-bottom: 18px;
+    }
 }
 @media(min-width:576px) and (max-width:767.98px){
     .navbar-toggler i{
@@ -843,6 +846,9 @@
     }
     .contact-heading h6::before {
 	    right: 30%;
+    }
+    .form-space{
+        padding-bottom: 18px;
     }
 }
 @media(max-width:575.98px){
@@ -1190,6 +1196,72 @@
     .contact-heading h6::before {
         right: 15%;
     }
+    .form-space{
+        padding-bottom: 18px;
+    }
 }
+    /* @media(min-width:575px){
+    .nav-item .accordion-button i {
+        left: 513px;
+    }
+    .about-right h6::after {
+        left: 19%;
+    }
+    .service-heading h6::after {
+        left: 21%;
+    }
+    .service-heading h6::before {
+        right: 21%;
+    }
+    .slider-middle {
+        margin-left: 215px;
+    }
+    .slider-middle2 {
+        margin-left: 215px;
+    }
+    .slider-right p {
+        max-width: 475px;
+    }
+    .slider-right2 p {
+        max-width: 475px;
+    }
+    .experience-heading h6::after {
+        left: 25%;
+    }
+    .experience-heading h6::before {
+        right: 25%;
+    }
+    .portfolio-heading h6::after {
+        left: 20%;
+    }
+    .portfolio-heading h6::before {
+        right: 20%;
+    }
+    .team-heading h6::after {
+        left: 30%;
+    }
+    .team-heading h6::before {
+        right: 30%;
+    }
+    .team-image img {
+        margin-left: 52px;
+    }
+    .team-overlay {
+        width: 80%;
+        margin-left: 52px;
+    }
+    .testimonial-heading h6::after {
+        left: 27%;
+    }
+    .testimonial-heading h6::before {
+        right: 27%;
+    }
+    .user-image img {
+        left: 38%;
+    }
+    .footer-text p {
+        max-width: 560px;
+    }
+}  */
 
 
