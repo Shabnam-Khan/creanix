@@ -1,3 +1,39 @@
+/* 
+----------------------
+Template Name: Creanix Template
+Author: 
+Author Email:
+Version: 1.00
+----------------------
+
+----------------------
+Table of Contents
+----------------------
+1. Navbar Part
+2. Responsive Navbar Part
+3. Banner Part
+4. Feature Part
+5. About Part
+6. Services Part
+7. Experience Part
+8. Counter Part
+9. Portfolio Part
+10. Team Part
+11. Testimonial Part
+12. Blog Part
+13. Marketplace Part
+14. Footer Part
+15. Copyright Part
+16. About Page
+17. Services Page
+18. Portfolio Page
+19. Blog Page
+20. Blog Details Page
+21. Contact Page
+
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -499,17 +535,17 @@ body{
     -ms-transform: translateX(230px) rotate(20deg);
     -o-transform: translateX(230px) rotate(20deg);
 }
-/******* service part goes here *******/
-#service{
+/******* services part goes here *******/
+#services{
     padding-top: 80px;
     padding-bottom: 60px;
-    background: url(../images/counter-bg.jpg);
+    background: url(../images/services-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
-.service-heading h6{
+.services-heading h6{
     color: #ff4a4a ;
     font-size: 16px;
     text-transform: uppercase;
@@ -517,7 +553,7 @@ body{
     font-weight: 700;
     position: relative;
 }
-.service-heading h6::after{
+.services-heading h6::after{
     content: '';
     position: absolute;
     left: 34%;
@@ -526,7 +562,7 @@ body{
     width: 40px;
     border: 2px dashed #ff4a4a ;
 }
-.service-heading h6::before{
+.services-heading h6::before{
     content: '';
     position: absolute;
     right: 34%;
@@ -535,7 +571,7 @@ body{
     width: 40px;
     border: 2px dashed #ff4a4a ;
 }
-.service-heading h2{
+.services-heading h2{
     color: #222;
     font-size: 32px;
     text-transform: capitalize;
@@ -552,8 +588,8 @@ body{
     padding-top: 132px;
 }
 .slider-middle{
-    margin-top: 115px;
     margin-left: 70px;
+    margin-top: 115px;
 }
 .slider-right{
     width: 80%;
@@ -621,8 +657,8 @@ body{
     max-width: 400px;
 }
 .slider-middle2{
-    margin-top: 115px;
     margin-left: 70px;
+    margin-top: 115px;
 }
 .slider-left2 h3{
     font-size: 24px;

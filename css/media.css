@@ -11,10 +11,10 @@
     .about-right{
         margin-left: 35px;
     }
-    .service-heading h6::after {
+    .services-heading h6::after {
         left: 31%;
     }
-    .service-heading h6::before {
+    .services-heading h6::before {
         right: 31%;
     }
     .slider-right2 {
@@ -138,13 +138,13 @@
     .about-right h6:after{
         left: 19%;
     }
-    .service-heading h6::before {
+    .services-heading h6::before {
         right: 28%;
     }
-    .service-heading h6::after {
+    .services-heading h6::after {
         left: 28%;
     }
-    .service-heading h2{
+    .services-heading h2{
         font-size: 28px;
         line-height: 38px;
     }
@@ -318,13 +318,13 @@
     .about-button .btn{
         padding: 8px 31px;
     }
-    .service-heading h6::before {
+    .services-heading h6::before {
         right: 30%;
     }
-    .service-heading h6::after {
+    .services-heading h6::after {
         left: 30%;
     }
-    .service-heading h2{
+    .services-heading h2{
         font-size: 28px;
         line-height: 38px;
     }
@@ -580,13 +580,13 @@
     .about-button .btn{
         padding: 8px 31px;
     }
-    .service-heading h6::before {
+    .services-heading h6::before {
         right: 23%;
     }
-    .service-heading h6::after {
+    .services-heading h6::after {
         left: 23%;
     }
-    .service-heading h2{
+    .services-heading h2{
         font-size: 28px;
         line-height: 38px;
     }
@@ -886,13 +886,13 @@
         padding: 12px 30px;
     }
     #banner{
-        height: 80vh;
+        height: 75vh;
     }
     #banner .banner-img{
         display: none;
     }
     .banner-text{
-        height: 74vh;
+        height: 80vh;
     }
     .feature-item{
         margin-top: 20px;
@@ -921,13 +921,13 @@
     .about-button .btn{
         padding: 8px 31px;
     }
-    .service-heading h6::before {
+    .services-heading h6::before {
         right: 4%;
     }
-    .service-heading h6::after {
+    .services-heading h6::after {
         left: 4%;
     }
-    .service-heading h2{
+    .services-heading h2{
         font-size: 28px;
         line-height: 38px;
     }

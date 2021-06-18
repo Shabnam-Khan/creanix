@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creanix | Creative Agency HTML Template</title>
+    <!-- all css links go here -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
     <link rel="stylesheet" href="font/flaticon.css">
@@ -16,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100"></body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
     <!-- navbar part goes here -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -35,11 +37,12 @@
                 <a class="nav-link"  href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="services.html">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
+              <!-- responsive navbar part goes here -->
               <li class="nav-item">
                 <div class="accordion-blog d-lg-none" id="accordionBlog">
                   <div class="accordion-item">
@@ -54,17 +57,18 @@
                         <a href="blog.html">Blog Page</a>
                       </div>
                       <div class="accordion-body2">
-                        <a href="blog details.html">Blog Details</a>
+                        <a href="blog-details.html">Blog Details</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
+              <!-- responsive navbar part ends -->
               <li class="nav-item d-none d-lg-block">
                 <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
                 <ul class="submenu">
                   <li>
-                    <a href="blog details.html">Blog Details</a>
+                    <a href="blog-details.html">Blog Details</a>
                   </li>
                 </ul>
               </li>
@@ -73,7 +77,9 @@
               </li>
             </ul>
             <ul class="navbar-nav2 ml-auto">
+              <li>
               <a href="#" class="btn">Get Quote</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -121,7 +127,7 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores placeat nesciunt nihil dolorum tempora molestiae magni consectetur quas dolor!</p>
         </div>
         <div class="share">
-          <div class="social">
+          <ul class="social">
             <li>
               <span>Share:</span>
             </li>
@@ -140,7 +146,7 @@
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
-          </div>
+          </ul>
         </div>
       </div>
       <div class="col-lg-4">
@@ -160,7 +166,7 @@
           <div class="posts-item">
             <div class="posts-img">
               <a href="#">
-              <img src="images/thumbnail1.jpg" alt="thumbnail1" height="80px">
+              <img src="images/thumbnail1.jpg" alt="thumbnail1" height="80">
               </a>
             </div>
               <div class="posts-info">
@@ -173,7 +179,7 @@
           <div class="posts-item">
             <div class="posts-img">
               <a href="#">
-              <img src="images/thumbnail2.jpg" alt="thumbnail2" height="80px">
+              <img src="images/thumbnail2.jpg" alt="thumbnail2" height="80">
               </a>
             </div>
               <div class="posts-info">
@@ -186,7 +192,7 @@
           <div class="posts-item">
             <div class="posts-img">
               <a href="#">
-              <img src="images/thumbnail3.jpg" alt="thumbnail3" height="80px">
+              <img src="images/thumbnail3.jpg" alt="thumbnail3" height="80">
               </a>
             </div>
               <div class="posts-info">
@@ -199,7 +205,7 @@
           <div class="posts-item">
             <div class="posts-img">
               <a href="#">
-              <img src="images/blog2.jpg" alt="thumbnail4" height="80px">
+              <img src="images/blog2.jpg" alt="thumbnail4" height="80">
               </a>
             </div>
               <div class="posts-info">
@@ -212,7 +218,7 @@
           <div class="posts-item">
             <div class="posts-img">
               <a href="#">
-              <img src="images/blog3.jpg" alt="thumbnail5" height="80px">
+              <img src="images/blog3.jpg" alt="thumbnail5" height="80">
               </a>
             </div>
               <div class="posts-info">
@@ -392,7 +398,8 @@
       </div>
     </div>
   </section>
-
+  
+<!-- all js links go here -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/wow.min.js"></script>

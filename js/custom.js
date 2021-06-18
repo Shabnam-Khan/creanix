@@ -1,39 +1,12 @@
 $(function(){ 
 
 // navbar toggle 
-$('.navbar-toggler i').click(function(){
+$('.navbar-toggler i').on('click',function(){
   $('.fa-close').toggleClass('fa-bars')
 });
 
- //vertical slider
- $('.slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay:true,
-    autoplaySpeed: 2500,
-    arrows:false,
-    vertical:true,
-    verticalSwiping:true,
-    centerMode:true,
-    centerPadding:false,
-    responsive: [
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  });
-
 // scroll spy 
-$(window).scroll(function(){
+$(window).on('scroll', function(){
   var scrolling = $(this).scrollTop();
   if(scrolling > 300){
     $('.navbar').addClass('navbg');
@@ -43,7 +16,7 @@ $(window).scroll(function(){
   }
 });
 
-//animation scroll js
+// animation scroll js
 var html_body = $('html, body');
 $('nav a').on('click', function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -58,14 +31,8 @@ $('nav a').on('click', function () {
       }
   });
 
-// counter
-  $('.counter').counterUp({
-      delay: 5,
-      time: 1000
-  });
-
-//  back to top 
-$(window).scroll(function(){
+// back to top 
+$(window).on('scroll', function(){
   var scrolling = $(this).scrollTop();
   if(scrolling > 100){
     $('.back-to-top').fadeIn(500);
@@ -75,10 +42,43 @@ $(window).scroll(function(){
   }
 });
 
+ // services slider
+ $('.slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay:true,
+  autoplaySpeed: 2500,
+  arrows:false,
+  vertical:true,
+  verticalSwiping:true,
+  centerMode:true,
+  centerPadding:false,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+});
+
+// counter
+  $('.counter').counterUp({
+      delay: 5,
+      time: 1000
+  });
+
 // venobox
 $('.venobox').venobox(); 
 
-//team wow js
+// team wow js
 new WOW().init();
 
 // testimonial slider 
