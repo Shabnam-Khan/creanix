@@ -881,6 +881,7 @@
     .content h1{
         font-size: 30px;
         line-height: 40px;
+        padding-top: 30px;
     }
     .content a{
         padding: 12px 30px;
