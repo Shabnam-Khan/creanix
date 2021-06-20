@@ -341,6 +341,9 @@
         width: 60%;
         margin: 32px auto;
     }
+    .slider-right::after {
+        display: none;
+    }
     .slider-right2{
         text-align: center !important;
         width: 60%;
@@ -602,6 +605,9 @@
         text-align: center !important;
         width: 80%;
         margin: 32px auto;
+    }
+    .slider-right::after {
+        display: none;
     }
     .slider-right2{
         text-align: center !important;
