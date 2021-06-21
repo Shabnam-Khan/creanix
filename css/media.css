@@ -938,6 +938,17 @@
         font-size: 28px;
         line-height: 38px;
     }
+    .slider button{
+        width: 60px;
+        height: 60px;
+        background-color: #ffab4a;
+        margin: 0 117px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
     .slider-left{
         text-align: center !important;
         width: 100%;
