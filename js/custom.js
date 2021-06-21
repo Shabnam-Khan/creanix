@@ -66,6 +66,8 @@ $(window).on('scroll', function(){
       breakpoint: 768,
       settings: {
         slidesToShow: 1,
+        autoplay:false,
+        arrows:true,
       }
     }
   ]
