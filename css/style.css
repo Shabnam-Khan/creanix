@@ -588,8 +588,7 @@ body{
     padding-top: 132px;
 }
 .slider-middle{
-    margin-left: 70px;
-    margin-top: 115px;
+    margin: 115px 60px auto;
 }
 .slider-right{
     width: 80%;

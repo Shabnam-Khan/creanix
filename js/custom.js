@@ -55,6 +55,14 @@ $(window).on('scroll', function(){
   centerPadding:false,
   responsive: [
     {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        autoplay:false,
+        arrows:true,
+      }
+    },
+    {
       breakpoint: 576,
       settings: {
         slidesToShow: 1,

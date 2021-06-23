@@ -260,7 +260,7 @@
         padding-bottom: 15px;
     }
     .navbar-nav2{
-        display: none;
+        padding-left: 0;
     }
     .nav-item .submenu{
         background-color: #222;
@@ -527,7 +527,7 @@
         padding-bottom: 15px;
     }
     .navbar-nav2{
-        display: none;
+        padding-left: 0;
     }
     .nav-item .submenu{
         background-color: #222;
@@ -597,12 +597,37 @@
         width: 60px;
         height: 60px;
         background-color: #ffab4a;
-        margin: 0 230px;
+        margin: 0 226px;
+        color: transparent;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
+    }
+    .slick-prev{
+        position: relative;
+    }
+    .slick-prev:before {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        content: "\f077";
+        color: #1c1c1c;
+        font-size: 30px;
+        font-family: 'FontAwesome';
+    }
+    .slick-next{
+        position: relative;
+    }
+    .slick-next:before {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        content: "\f078 ";
+        color: #1c1c1c;
+        font-size: 30px;
+        font-family: 'FontAwesome';
     }
     .slider-left{
         text-align: center !important;
@@ -882,7 +907,7 @@
         padding-bottom: 15px;
     }
     .navbar-nav2{
-        display: none;
+      padding-left: 0;
     }
     .nav-item .submenu{
         background-color: #222;
@@ -957,11 +982,36 @@
         height: 60px;
         background-color: #ffab4a;
         margin: 0 117px;
+        color: transparent;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
+    }
+    .slick-prev{
+        position: relative;
+    }
+    .slick-prev:before {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        content: "\f077";
+        color: #1c1c1c;
+        font-size: 30px;
+        font-family: 'FontAwesome';
+    }
+    .slick-next{
+        position: relative;
+    }
+    .slick-next:before {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        content: "\f078 ";
+        color: #1c1c1c;
+        font-size: 30px;
+        font-family: 'FontAwesome';
     }
     .slider-left{
         text-align: center !important;
