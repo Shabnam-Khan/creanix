@@ -203,6 +203,48 @@ body{
     -ms-transform: translateX(230px) rotate(20deg);
     -o-transform: translateX(230px) rotate(20deg);
 }
+.navbar-nav3 .btn{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(200deg, #ffab4a 0%, #ff4a4a 100%);
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.navbar-nav3 .btn::before{
+    content: '';
+    height: 200%;
+    width: 40px;
+    background: rgba(255,255,255,.3);
+    position: absolute;
+    top: -20px;
+    transform: translateX(-80px) rotate(20deg);
+    -webkit-transform: translateX(-80px) rotate(20deg);
+    -moz-transform: translateX(-80px) rotate(20deg);
+    -ms-transform: translateX(-80px) rotate(20deg);
+    -o-transform: translateX(-80px) rotate(20deg);
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+}
+.navbar-nav3 .btn:hover::before{
+    transform: translateX(230px) rotate(20deg);
+    -webkit-transform: translateX(230px) rotate(20deg);
+    -moz-transform: translateX(230px) rotate(20deg);
+    -ms-transform: translateX(230px) rotate(20deg);
+    -o-transform: translateX(230px) rotate(20deg);
+}
 /******* responsive navbar part goes here *******/
 .nav-item .accordion-item{
     margin-left: 2px;
