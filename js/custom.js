@@ -46,7 +46,7 @@ $(window).on('scroll', function(){
  $('.slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay:true,
+  autoplay:false,
   autoplaySpeed: 2500,
   arrows:false,
   vertical:true,
