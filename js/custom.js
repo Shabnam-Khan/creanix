@@ -49,12 +49,12 @@ $(window).on('scroll', function(){
   autoplay:true,
   autoplaySpeed: 2500,
   arrows:true,
+  prevArrow:'.up',
+  nextArrow:'.down',
   vertical:true,
   verticalSwiping:true,
   centerMode:true,
   centerPadding:false,
-  prevArrow:'.up',
-  nextArrow:'.down',
   responsive: [
     {
       breakpoint: 320,
