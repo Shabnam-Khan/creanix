@@ -627,11 +627,11 @@ body{
     color: #444;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    padding-top: 132px;
+    line-height: 70px;
 }
 .slider-right{
     width: 80%;
-    margin-top: 45px;
+    margin-top: 30px;
     background: #fff;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -661,51 +661,10 @@ body{
     line-height: 24px;
     max-width: 400px;
 }
-.slider-right2{
-    width: 80%;
-    margin-top: 8px;
-    margin-left: 105px;
-    background: #fff;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    position: relative;
-}
-.slider-right2::after{
-    position: absolute;
-    content: '';
-    height: 40px;
-    width: 40px;
-    right: -10px;
-    top: 40%;
-    z-index: -1;
-    background: #fff;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-}
-.slider-right2 p{
-    font-family: 'Montserrat', sans-serif;
-    color: #444;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 30px;
-    line-height: 24px;
-    max-width: 400px;
-}
 .slider-middle{
-    margin: 113px auto;
-}
-.slider-middle2{
-    margin: 113px auto;
-}
-.slider-left2 h3{
-    font-size: 24px;
-    color: #444;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 132px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
 }
 .slick-slide img {
 	display: inline-block;
@@ -726,8 +685,41 @@ body{
 .slick-center .slider-right{
     filter: drop-shadow(-3px 3px 2px #bdb3b3);
 }
-.slick-center .slider-right2{
-    filter: drop-shadow(-3px 3px 2px #bdb3b3);
+.service-main{
+    position: relative;
+}
+.service-main .up{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.service-main .down{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.service-main i{
+    width: 40px;
+    height: 40px;
+    background-color: #ffab4a;
+    color: #222;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 /******* experience part goes here *******/
 #experience{

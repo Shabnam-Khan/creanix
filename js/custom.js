@@ -46,20 +46,21 @@ $(window).on('scroll', function(){
  $('.slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay:false,
+  autoplay:true,
   autoplaySpeed: 2500,
-  arrows:false,
+  arrows:true,
   vertical:true,
   verticalSwiping:true,
   centerMode:true,
   centerPadding:false,
+  prevArrow:'.up',
+  nextArrow:'.down',
   responsive: [
     {
       breakpoint: 320,
       settings: {
         slidesToShow: 1,
         autoplay:false,
-        arrows:true,
       }
     },
     {
@@ -67,7 +68,6 @@ $(window).on('scroll', function(){
       settings: {
         slidesToShow: 1,
         autoplay:false,
-        arrows:true,
       }
     },
     {
@@ -75,7 +75,6 @@ $(window).on('scroll', function(){
       settings: {
         slidesToShow: 1,
         autoplay:false,
-        arrows:true,
       }
     }
   ]

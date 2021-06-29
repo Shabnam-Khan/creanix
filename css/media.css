@@ -17,19 +17,6 @@
     .services-heading h6::before {
         right: 31%;
     }
-    .slider-right2 {
-        margin-top: 38px;
-    }
-    .slider-right {
-        margin-top: 38px;
-        margin-left: -10px;
-    }
-    .slider-middle2 {
-        margin-left: 50px;
-    }
-    .slider-middle {
-        margin-left: 50px;
-    }
     .experience-heading h6::after {
         left: 34%;
     }
@@ -147,15 +134,6 @@
     .services-heading h2{
         font-size: 28px;
         line-height: 38px;
-    }
-    .slider-right2 {
-        width: 80%;
-        margin-top: 25px;
-        margin-left: 98px;
-    }
-    .slider-right {
-        width: 80%;
-        margin-top: 25px;
     }
     .experience-heading h6::before {
         right: 31%;
@@ -299,10 +277,6 @@
     .about-bg{
         background: none;
     }
-    .about-right{
-        padding-top: 45px;
-        padding-left: 80px;
-    }
     .about-right h6:after{
         left: 14%;
     }
@@ -329,10 +303,6 @@
         text-align: center !important;
         width: 100%;
     }
-    .slider-left2{
-        text-align: center !important;
-        width: 100%;
-    }
     .slider-right{
         text-align: center !important;
         width: 60%;
@@ -340,17 +310,6 @@
     }
     .slider-right::after {
         display: none;
-    }
-    .slider-right2{
-        text-align: center !important;
-        width: 60%;
-        margin: 30px auto;
-    }
-    .slider-left h3{
-        padding-top: 46px;
-    }
-    .slider-left2 h3{
-        padding-top: 46px;
     }
     .experience-bg{
         background: none;
@@ -577,47 +536,11 @@
         font-size: 28px;
         line-height: 38px;
     }
-    .slider button{
-        width: 60px;
-        height: 60px;
-        background-color: #ffab4a;
-        margin: 0 226px;
-        color: transparent;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-    .slick-prev{
-        position: relative;
-    }
-    .slick-prev:before {
-        position: absolute;
-        top: 10%;
-        left: 23%;
-        content: "\f077";
-        color: #1c1c1c;
-        font-size: 30px;
-        font-family: 'FontAwesome';
-    }
-    .slick-next{
-        position: relative;
-    }
-    .slick-next:before {
-        position: absolute;
-        top: 10%;
-        left: 23%;
-        content: "\f078 ";
-        color: #1c1c1c;
-        font-size: 30px;
-        font-family: 'FontAwesome';
+    .slider{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .slider-left{
-        text-align: center !important;
-        width: 100%;
-    }
-    .slider-left2{
         text-align: center !important;
         width: 100%;
     }
@@ -628,17 +551,6 @@
     }
     .slider-right::after {
         display: none;
-    }
-    .slider-right2{
-        text-align: center !important;
-        width: 80%;
-        margin: 30px auto;
-    }
-    .slider-left h3{
-        padding-top: 46px;
-    }
-    .slider-left2 h3{
-        padding-top: 46px;
     }
     .experience-bg{
         background: none;
@@ -896,13 +808,13 @@
     .content h1{
         font-size: 30px;
         line-height: 40px;
-        padding-top: 70px;
+        padding-top: 80px;
     }
     .content a{
         padding: 12px 30px;
     }
     #banner{
-        height: 80vh;
+        height: 85vh;
     }
     #banner .banner-img{
         display: none;
@@ -947,67 +859,20 @@
         font-size: 28px;
         line-height: 38px;
     }
+    .slider{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .slider-right::after {
         display: none;
     }
-    .slider button{
-        width: 60px;
-        height: 60px;
-        background-color: #ffab4a;
-        margin: 0 113px;
-        color: transparent;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-    .slick-prev{
-        position: relative;
-    }
-    .slick-prev:before {
-        position: absolute;
-        top: 10%;
-        left: 23%;
-        content: "\f077";
-        color: #1c1c1c;
-        font-size: 30px;
-        font-family: 'FontAwesome';
-    }
-    .slick-next{
-        position: relative;
-    }
-    .slick-next:before {
-        position: absolute;
-        top: 10%;
-        left: 23%;
-        content: "\f078 ";
-        color: #1c1c1c;
-        font-size: 30px;
-        font-family: 'FontAwesome';
-    }
     .slider-left{
-        text-align: center !important;
-        width: 100%;
-    }
-    .slider-left2{
         text-align: center !important;
         width: 100%;
     }
     .slider-right{
         text-align: center !important;
         width: 100%;
-    }
-    .slider-right2{
-        text-align: center !important;
-        width: 100%;
-        margin-left: 0;
-    }
-    .slider-left h3{
-        padding-top: 46px;
-    }
-    .slider-left2 h3{
-        padding-top: 46px;
     }
     .experience-bg{
         background: none;
@@ -1207,6 +1072,9 @@
         margin-bottom: 16px;
     }
 /******* blog page css *******/
+.blog-tab2 h6 {
+    width: 40%;
+}
     #blog-page .card {
         margin-bottom: 20px;
     }
