@@ -102,6 +102,7 @@
 @media(min-width:992px) and (max-width:1199.98px){
     .navbar-toggler i{
         color: #fff;
+        margin-top: 20px;
     }
     .navbar-toggler:focus{
         box-shadow: none;
@@ -221,6 +222,7 @@
     }
     .navbar-toggler i{
         color: #fff;
+        margin-top: 20px;
     }
     .navbar-toggler:focus{
         box-shadow: none;
@@ -456,6 +458,7 @@
     }
     .navbar-toggler i{
         color: #fff;
+        margin-top: 20px;
     }
     .navbar-toggler:focus{
         box-shadow: none;
@@ -778,6 +781,7 @@
     }
     .navbar-toggler i{
         color: #fff;
+        margin-top: 20px;
     }
     .navbar-toggler:focus{
         box-shadow: none;
