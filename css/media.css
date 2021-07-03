@@ -1033,6 +1033,9 @@
     .footer-contact-info i {
         position: unset;
     }
+    #copyright{
+        text-align: center;
+    }
 /******* about page css *******/
     .pricing-heading h6::after {
         left: 14%;
